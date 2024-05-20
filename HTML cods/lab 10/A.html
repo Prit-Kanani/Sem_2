@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <style type="text/css">
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+           
+            background-color: #aed8e6;
+            margin: 10px;
+        }
+        .header{
+            height: 5%;
+            width: 100%;
+            background-color: purple;
+            color: white;
+        }
+        .content{
+            padding: 10px;
+            background-color: orange;
+            height: 90%;
+            padding: 10px;
+            width:100%;
+
+            
+        }
+        .entry{
+            height: 50%;
+            color: white;
+            float: left;
+            width: 60%;
+          
+        }
+        .entry1{
+            background-color: black;
+            height: 20%;
+            color: white;
+            width: 100%;
+            margin-left: 10px;
+        }
+        .entry2{
+            background-color: black;
+            height: 20%;
+            color: white;
+            width: 100%;
+            margin-top: 16px;
+            margin-bottom: 10px;
+        }
+        .sidebar{
+            background-color: black;
+            color: white;
+            float: right;
+            width:30%;
+            height: 40%;
+            
+        }
+        .darshan{
+            background-color: blue;
+        }
+        @media (max-width:750px) and (min-width:220px) {
+            .entry{
+                width:100%;
+
+            }
+            .sidebar{
+                width: 100%;
+            }
+
+            
+        }
+        @media (max-width:1440px) and (min-width:1220px){
+            .entry{
+                width:100%;
+
+            }
+            .sidebar{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+       <p>page</p>  
+        <div class="header">
+            <p>Header </p>
+        </div>
+        <div class="content">
+           <p>Content</p>
+           <div class="sidebar">
+            <p>sidebar</p>
+        </div>
+           <div class="entry">
+            <div class="entry1">entry</div>
+            <div class="entry2">entry</div>
+            <div class="entry1">entry</div>
+           </div>
+
+            
+
+        </div>
+        <div class="darshan">
+            <p>Darshan University Rajkot</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

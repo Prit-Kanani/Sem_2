@@ -1,0 +1,19 @@
+ <div class="datatpp">
+                        <h3>I'm a designer & developer with a passion for <br>web design</h3>
+                    </div>
+                    <div class="palet">
+                        <div class="pp">
+                            <img src="./lightbulb.png" >
+                            Creative Design
+                        </div>
+                        <div class="pp">
+                            <img src="./leptop.png" >
+                            <p>web design</p>
+                            
+                        </div>
+                        <div class="pp">
+                            <img src="./updown.png" >
+                            <p>Brand Identity</p>
+                            
+                        </div>
+                    </div>
